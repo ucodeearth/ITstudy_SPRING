@@ -18,8 +18,8 @@ public class helloServlet extends HttpServlet {
 		String msg = "MVC pattern2 "; 
 		req.setAttribute("m", msg);
 		
-		 RequestDispatcher dispat = req.getRequestDispatcher( "hello.jsp" );
-		 dispat.forward(req,resp);
+		 RequestDispatcher rd = req.getRequestDispatcher( "hello.jsp" );
+		 rd.forward(req,resp);
 	}
 
 }
