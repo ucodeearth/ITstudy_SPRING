@@ -1,11 +1,9 @@
-
 class PrivateModifier {
 	private String p = "Private";
 	private String m(){
 		return p + "Modifier";	
 	}
 }
-
 
 class Test{
 	 public static void main(String args[]) {

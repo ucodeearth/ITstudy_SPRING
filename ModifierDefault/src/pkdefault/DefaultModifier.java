@@ -1,6 +1,5 @@
-package Modifier;
-
-       class DefaultModifier {
+package pkdefault;
+  class DefaultModifier {
   String d = "default";
   String m() {
 		return d + "modifier";	
