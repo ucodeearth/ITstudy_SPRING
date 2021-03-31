@@ -13,7 +13,7 @@ class Test{
 		 
 		 
 	// private제어자 설정으로 같은 클래스안에서만 접근가능
-    // 다른클래스인 test 에서 private 설정된 p,m 접근실패로 오류
+    // 다른 클래스인 test 에서 private 설정된 p,m 접근실패로 오류
 		 
 	 } 
  }
